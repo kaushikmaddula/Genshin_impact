@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Oxygen:wght@700&display=swap');
+
+body {
+    background-color: black;
+}
+
+.paimon {
+    background-image: url('images/paimon.png');
+    background-size: 175vh 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paimon h1 {
+    position: absolute;
+    margin-top: 1%;
+    font-family: 'Courgette', cursive;
+    margin-left: 45%;
+    font-size: 15vh;
+    color: rgba(243, 124, 101, 0.139);
+}
+
+.jean {
+    position: relative;
+    background-image: url('images/jean.jpg');
+    background-size: 200vh 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jean h1 {
+    position: absolute;
+    margin-top: 20%;
+    font-family: 'Courgette', cursive;
+    margin-left: 5%;
+    font-size: 45vh;
+    color: rgba(255, 153, 37, 0.139);
+}
+
+.zhongli {
+    position: relative;
+    background-image: url('images/zhongli.jpg');
+    background-size: 200vh 100vh;
+    background-attachment: fixed;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zhongli h1 {
+    position: absolute;
+    margin-top: 20%;
+    font-family: 'Courgette', cursive;
+    margin-left: 5%;
+    font-size: 25vh;
+    color: rgba(255, 135, 37, 0.398);
+}
+
+.arrikati-itto {
+    position: relative;
+    background-image: url('images/arritaki-ittobg.jpg');
+    background-position: center;
+    background-color: rgba(255, 239, 199, 0.359);
+    background-size: 200vh 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* z-index: 30px; */
+}
+
+.arrikati-itto img {
+    /* height: 80%px; */
+    margin-top: -30vh;
+    width: 350vh;
+    margin-left: -90vh;
+    z-index: 300;
+}
+
+/* 
+.itto {
+    display: flex;
+    justify-content: center;
+} */
+
+.arrikati-itto h1 {
+    position: absolute;
+    margin-top: 20%;
+    font-family: 'Courgette', cursive;
+    margin-left: 5%;
+    font-size: 25vh;
+    color: rgba(202, 202, 202, 0.398);
+    z-index: 10;
+}
+
+.hu-tao {
+    position: relative;
+    background-image: url('images/hu-tao.png');
+    background-size: 180vh 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hu-tao h1 {
+    position: absolute;
+    margin-top: 20%;
+    font-family: 'Courgette', cursive;
+    margin-left: 5%;
+    font-size: 25vh;
+    color: rgba(255, 153, 37, 0.139);
+}
